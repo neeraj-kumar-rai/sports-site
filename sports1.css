@@ -1,0 +1,33 @@
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  top: 0;
+  position: sticky;
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  text-align:right;
+}
+.navigation-bar img{
+float:left;
+}
+
+
+
+  
+}
+.card {
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,1);
+  transition: 0.3s;
+  width: 50px;
+  padding:10px;
+  height:100px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
